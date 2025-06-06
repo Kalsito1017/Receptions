@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XEHmFkT+XDodUmoA7oDTv8ajln29DDOpa8vnkY4A3CwVmiNxlBB/nDRXK68CItCymRnDta9QNtFzjdMKXCBFuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Data\\Receptions.Data.Common\\Receptions.Data.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

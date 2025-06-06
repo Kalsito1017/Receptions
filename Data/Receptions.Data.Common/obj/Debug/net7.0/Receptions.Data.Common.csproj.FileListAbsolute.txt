@@ -1,0 +1,11 @@
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\bin\Debug\net7.0\Receptions.Data.Common.deps.json
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\bin\Debug\net7.0\Receptions.Data.Common.dll
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\bin\Debug\net7.0\Receptions.Data.Common.pdb
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.AssemblyInfoInputs.cache
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.AssemblyInfo.cs
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.dll
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\refint\Receptions.Data.Common.dll
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\Receptions.Data.Common.pdb
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data.Common\obj\Debug\net7.0\ref\Receptions.Data.Common.dll
