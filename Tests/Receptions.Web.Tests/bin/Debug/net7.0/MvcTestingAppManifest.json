@@ -1,0 +1,13 @@
+{
+  "Receptions.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Receptions.Common",
+  "Receptions.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Data\\Receptions.Data.Common",
+  "Receptions.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Data\\Receptions.Data",
+  "Receptions.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Data\\Receptions.Data.Models",
+  "Receptions.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Data",
+  "Receptions.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services",
+  "Receptions.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping",
+  "Receptions.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Messaging",
+  "Receptions.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web",
+  "Receptions.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.Infrastructure",
+  "Receptions.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.ViewModels"
+}

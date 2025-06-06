@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YdnQ9t8guqxtPf3z3ntK58VDvDPU9hLdihRQs33fCuWNuQLQjUa1UO9j+RCxl/ikq3jZGl0a+wz/0q/MumLrFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping\\Receptions.Services.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

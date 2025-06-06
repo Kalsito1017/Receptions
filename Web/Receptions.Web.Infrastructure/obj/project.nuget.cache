@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0oe4nAJkrNYuRI76RlJeo6u9Fssm6LWE1zTM5eAjwWB69/j+AZkWpaovm3YLMqgjpxNsEZhZVh5Oz3EkMFDLzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.Infrastructure\\Receptions.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Kaloyan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}
