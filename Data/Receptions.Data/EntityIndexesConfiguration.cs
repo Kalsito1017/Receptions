@@ -2,9 +2,8 @@
 {
     using System.Linq;
 
-    using Receptions.Data.Common.Models;
-
     using Microsoft.EntityFrameworkCore;
+    using Receptions.Data.Common.Models;
 
     internal static class EntityIndexesConfiguration
     {
