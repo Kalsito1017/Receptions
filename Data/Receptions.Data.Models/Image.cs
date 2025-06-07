@@ -6,6 +6,7 @@
 
     public class Image : BaseModel<string>
     {
+        // Image Test Message
         public Image()
         {
                this.Id = Guid.NewGuid().ToString();
