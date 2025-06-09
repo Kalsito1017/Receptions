@@ -40,4 +40,10 @@
     <ProjectReference Include="..\Receptions.Web.Infrastructure\Receptions.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\Receptions.Web.ViewModels\Receptions.Web.ViewModels.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
