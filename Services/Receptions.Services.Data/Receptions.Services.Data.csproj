@@ -21,7 +21,14 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\Receptions.Data.Common\Receptions.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\Receptions.Data.Models\Receptions.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\Receptions.Web.ViewModels\Receptions.Web.ViewModels.csproj" />
     <ProjectReference Include="..\Receptions.Services.Mapping\Receptions.Services.Mapping.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="IRecipeService.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>

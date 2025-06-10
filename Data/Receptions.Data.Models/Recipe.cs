@@ -1,8 +1,8 @@
 ﻿namespace Receptions.Data.Models
 {
     using System;
-
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     using Receptions.Data.Common.Models;
 
@@ -20,7 +20,7 @@
 
         public TimeSpan PreparationTime { get; set; }
 
-        public TimeSpan CookingTime { get; set; }
+        public TimeSpan TimeSpan { get; set; }
 
         public int PortionsCount { get; set; }
 

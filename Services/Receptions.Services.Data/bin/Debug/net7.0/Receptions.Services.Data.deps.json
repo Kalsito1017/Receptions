@@ -11,6 +11,7 @@
           "Receptions.Data.Common": "1.0.0",
           "Receptions.Data.Models": "1.0.0",
           "Receptions.Services.Mapping": "1.0.0",
+          "Receptions.Web.ViewModels": "1.0.0",
           "StyleCop.Analyzers": "1.2.0-beta.435"
         },
         "runtime": {
@@ -251,6 +252,15 @@
         "runtime": {
           "Receptions.Services.Mapping.dll": {}
         }
+      },
+      "Receptions.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "Receptions.Data.Models": "1.0.0",
+          "Receptions.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "Receptions.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -432,6 +442,11 @@
       "sha512": ""
     },
     "Receptions.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Receptions.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -17,3 +17,4 @@ C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\refint\Receptions.Web.ViewModels.dll
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\ref\Receptions.Web.ViewModels.dll
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\bin\Debug\net7.0\Home\Recipes\CreateRecipeInputModel.cs

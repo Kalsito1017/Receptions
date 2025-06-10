@@ -3576,7 +3576,8 @@
         "dependencies": {
           "Receptions.Data.Common": "1.0.0",
           "Receptions.Data.Models": "1.0.0",
-          "Receptions.Services.Mapping": "1.0.0"
+          "Receptions.Services.Mapping": "1.0.0",
+          "Receptions.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "Receptions.Services.Data.dll": {}

@@ -7,6 +7,7 @@
 
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
@@ -21,6 +22,12 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\Receptions.Data.Models\Receptions.Data.Models.csproj" />
     <ProjectReference Include="..\..\Services\Receptions.Services.Mapping\Receptions.Services.Mapping.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Home\Recipes\CreateRecipeInputModel.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>

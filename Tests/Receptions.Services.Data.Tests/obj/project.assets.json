@@ -2938,7 +2938,8 @@
         "dependencies": {
           "Receptions.Data.Common": "1.0.0",
           "Receptions.Data.Models": "1.0.0",
-          "Receptions.Services.Mapping": "1.0.0"
+          "Receptions.Services.Mapping": "1.0.0",
+          "Receptions.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Receptions.Services.Data.dll": {}
@@ -2958,6 +2959,20 @@
         },
         "runtime": {
           "bin/placeholder/Receptions.Services.Mapping.dll": {}
+        }
+      },
+      "Receptions.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Receptions.Data.Models": "1.0.0",
+          "Receptions.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Receptions.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Receptions.Web.ViewModels.dll": {}
         }
       }
     }
@@ -8764,6 +8779,11 @@
       "type": "project",
       "path": "../../Services/Receptions.Services.Mapping/Receptions.Services.Mapping.csproj",
       "msbuildProject": "../../Services/Receptions.Services.Mapping/Receptions.Services.Mapping.csproj"
+    },
+    "Receptions.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/Receptions.Web.ViewModels/Receptions.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/Receptions.Web.ViewModels/Receptions.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

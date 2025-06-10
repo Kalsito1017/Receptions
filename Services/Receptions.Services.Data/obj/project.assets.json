@@ -402,6 +402,20 @@
         "runtime": {
           "bin/placeholder/Receptions.Services.Mapping.dll": {}
         }
+      },
+      "Receptions.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Receptions.Data.Models": "1.0.0",
+          "Receptions.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Receptions.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Receptions.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -1075,6 +1089,11 @@
       "type": "project",
       "path": "../Receptions.Services.Mapping/Receptions.Services.Mapping.csproj",
       "msbuildProject": "../Receptions.Services.Mapping/Receptions.Services.Mapping.csproj"
+    },
+    "Receptions.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/Receptions.Web.ViewModels/Receptions.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/Receptions.Web.ViewModels/Receptions.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1082,6 +1101,7 @@
       "Receptions.Data.Common >= 1.0.0",
       "Receptions.Data.Models >= 1.0.0",
       "Receptions.Services.Mapping >= 1.0.0",
+      "Receptions.Web.ViewModels >= 1.0.0",
       "StyleCop.Analyzers >= 1.2.0-beta.435"
     ]
   },
@@ -1120,6 +1140,9 @@
             },
             "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping\\Receptions.Services.Mapping.csproj": {
               "projectPath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping\\Receptions.Services.Mapping.csproj"
+            },
+            "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.ViewModels\\Receptions.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.ViewModels\\Receptions.Web.ViewModels.csproj"
             }
           }
         }

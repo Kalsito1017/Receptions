@@ -55,7 +55,7 @@ namespace Receptions.Data.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Instructions = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PreparationTime = table.Column<TimeSpan>(type: "time", nullable: false),
-                    TimeSpan = table.Column<TimeSpan>(type: "time", nullable: false),
+					TimeSpan = table.Column<TimeSpan>(type: "time", nullable: false),
                     PortionsCount = table.Column<int>(type: "int", nullable: false),
                     AddedByUserId = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: true),

@@ -601,3 +601,10 @@ C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\obj\Debug\net7.0\ref
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\obj\Debug\net7.0\Receptions.Web.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\obj\Debug\net7.0\Receptions.Web.genruntimeconfig.cache
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\obj\Debug\net7.0\ref\Receptions.Web.dll
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\Home\Recipes\CreateRecipeInputModel.cs
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\IRecipeService.cs
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\Views\Recipe\Create.cshtml
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\Controllers\RecipeController.cs
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web\bin\Debug\net7.0\System.CodeDom.dll

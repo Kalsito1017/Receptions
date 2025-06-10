@@ -334,6 +334,9 @@
               },
               "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping\\Receptions.Services.Mapping.csproj": {
                 "projectPath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Services\\Receptions.Services.Mapping\\Receptions.Services.Mapping.csproj"
+              },
+              "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.ViewModels\\Receptions.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Kaloyan\\source\\repos\\Receptions\\Web\\Receptions.Web.ViewModels\\Receptions.Web.ViewModels.csproj"
               }
             }
           }
@@ -784,6 +787,12 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
