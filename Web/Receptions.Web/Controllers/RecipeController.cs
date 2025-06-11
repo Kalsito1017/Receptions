@@ -12,7 +12,8 @@
     {
         private readonly ICategoryService categoryService;
         private readonly IRecipeService recipeService;
-        //test message
+
+        // test message
         public RecipeController(ICategoryService categoryService, IRecipeService recipeService)
         {
             this.categoryService = categoryService;
