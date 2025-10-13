@@ -13,12 +13,22 @@
             color: #ccc; /* light hover color */
         }
 
-/* Buttons */
+/* Make all primary buttons consistent */
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: #1b6ec2; /* choose your color */
+    border-color: #1b6ec2; /* same as background */
+    color: #fff; /* text color */
+    transition: background-color 0.3s, border-color 0.3s;
 }
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+        background-color: #155a9c; /* slightly darker on hover */
+        border-color: #155a9c;
+        color: #fff;
+    }
+
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
