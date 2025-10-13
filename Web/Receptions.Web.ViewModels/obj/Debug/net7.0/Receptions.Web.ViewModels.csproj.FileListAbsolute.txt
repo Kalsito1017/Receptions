@@ -12,9 +12,10 @@ C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.AssemblyInfoInputs.cache
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.AssemblyInfo.cs
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.csproj.CoreCompileInputs.cache
-C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.csproj.CopyComplete
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.dll
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\refint\Receptions.Web.ViewModels.dll
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\ref\Receptions.Web.ViewModels.dll
 C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\bin\Debug\net7.0\Home\Recipes\CreateRecipeInputModel.cs
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptions.Web.ViewModels.sourcelink.json
+C:\Users\Kaloyan\source\repos\Receptions\Web\Receptions.Web.ViewModels\obj\Debug\net7.0\Receptio.99A0AD76.Up2Date

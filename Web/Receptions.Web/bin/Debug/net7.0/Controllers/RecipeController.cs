@@ -13,38 +13,38 @@
     using Receptions.Web.ViewModels.Home.ASPViewModels;
 
     [Route("api/[controller]")]
-    [ApiController]
     public class RecipeController : Controller
     {
         private readonly ICategoryService categoryService;
         private readonly IRecipeService recipeService;
         private readonly ApplicationDbContext db;
 
-        public RecipeController(ApplicationDbContext db)
-        {
-            this.db = db;
-        }
+        // public RecipeController(ApplicationDbContext db)
+        // {
+        //    this.db = db;
+        // }
 
-        [HttpGet]
-        public IEnumerable<Recipe> Get()
-        {
-            return this.db.Recipes.ToList();
-        }
+        // [HttpGet]
+        // public IEnumerable<Recipe> Get()
+        // {
+        //    return this.db.Recipes.ToList();
+        // }
 
-        [HttpPost]
-        public async Task<ActionResult> Post(Recipe recipe)
-        {
-            await this.db.Recipes.AddAsync(recipe);
-            await this.db.SaveChangesAsync();
-            return this.CreatedAtAction("{GET}", new { Id = recipe.Id }, recipe);
-        }
+        // [HttpPost]
+        // public async Task<ActionResult> Post(Recipe recipe)
+        // {
+        //    await this.db.Recipes.AddAsync(recipe);
+        //    await this.db.SaveChangesAsync();
+        //    return this.CreatedAtAction("{GET}", new { Id = recipe.Id }, recipe);
+        // }
 
         // test message
-        // public RecipeController(ICategoryService categoryService, IRecipeService recipeService)
-        // {
-        //    this.categoryService = categoryService;
-        //    this.recipeService = recipeService;
-        // }
+        public RecipeController(ICategoryService categoryService, IRecipeService recipeService)
+        {
+            this.categoryService = categoryService;
+            this.recipeService = recipeService;
+        }
+
         public IActionResult Create()
         {
             var viewModel = new CreateRecipeInputModel();

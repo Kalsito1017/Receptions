@@ -10,3 +10,4 @@ C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Messaging\
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Messaging\obj\Debug\net7.0\refint\Receptions.Services.Messaging.dll
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Messaging\obj\Debug\net7.0\Receptions.Services.Messaging.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Messaging\obj\Debug\net7.0\ref\Receptions.Services.Messaging.dll
+C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Messaging\obj\Debug\net7.0\Receptions.Services.Messaging.sourcelink.json

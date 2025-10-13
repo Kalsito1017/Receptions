@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Receptions.Web.Controllers.BlogPostViewModel>
+@{
+    ViewData["Title"] = "Блог";
+}
+
+<div class="container my-5">
+    <h1 class="fw-bold mb-4 text-center">Блог</h1>
+
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="@post.ImageUrl" class="card-img-top" alt="@post.Title">
+                    <div class="card-body">
+                        <h4 class="card-title">@post.Title</h4>
+                        <p class="text-muted small">@post.Date.ToString("dd MMM yyyy") · @post.Author</p>
+                        <p class="card-text">@post.Excerpt</p>
+                        <a href="/Blog/Details/@post.Id" class="btn btn-outline-primary btn-sm">Прочети повече</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

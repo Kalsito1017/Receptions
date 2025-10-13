@@ -219,7 +219,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "Receptions.Data.Common.dll": {}
+          "Receptions.Data.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

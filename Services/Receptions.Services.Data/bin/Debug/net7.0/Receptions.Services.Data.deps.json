@@ -233,7 +233,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "Receptions.Data.Common.dll": {}
+          "Receptions.Data.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Receptions.Data.Models/1.0.0": {
@@ -242,7 +245,10 @@
           "Receptions.Data.Common": "1.0.0"
         },
         "runtime": {
-          "Receptions.Data.Models.dll": {}
+          "Receptions.Data.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Receptions.Services.Mapping/1.0.0": {
@@ -250,7 +256,10 @@
           "AutoMapper": "12.0.1"
         },
         "runtime": {
-          "Receptions.Services.Mapping.dll": {}
+          "Receptions.Services.Mapping.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Receptions.Web.ViewModels/1.0.0": {
@@ -259,7 +268,10 @@
           "Receptions.Services.Mapping": "1.0.0"
         },
         "runtime": {
-          "Receptions.Web.ViewModels.dll": {}
+          "Receptions.Web.ViewModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

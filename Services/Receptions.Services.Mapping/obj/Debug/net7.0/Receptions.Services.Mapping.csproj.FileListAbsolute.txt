@@ -10,3 +10,4 @@ C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Mapping\ob
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Mapping\obj\Debug\net7.0\refint\Receptions.Services.Mapping.dll
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Mapping\obj\Debug\net7.0\Receptions.Services.Mapping.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Mapping\obj\Debug\net7.0\ref\Receptions.Services.Mapping.dll
+C:\Users\Kaloyan\source\repos\Receptions\Services\Receptions.Services.Mapping\obj\Debug\net7.0\Receptions.Services.Mapping.sourcelink.json

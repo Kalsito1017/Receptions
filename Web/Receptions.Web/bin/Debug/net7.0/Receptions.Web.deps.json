@@ -3064,7 +3064,10 @@
       },
       "Receptions.Common/1.0.0": {
         "runtime": {
-          "Receptions.Common.dll": {}
+          "Receptions.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Common.dll": {}
@@ -3080,7 +3083,10 @@
           "Receptions.Data.Models": "1.0.0"
         },
         "runtime": {
-          "Receptions.Data.dll": {}
+          "Receptions.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Data.dll": {}
@@ -3091,7 +3097,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "Receptions.Data.Common.dll": {}
+          "Receptions.Data.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Data.Common.dll": {}
@@ -3103,7 +3112,10 @@
           "Receptions.Data.Common": "1.0.0"
         },
         "runtime": {
-          "Receptions.Data.Models.dll": {}
+          "Receptions.Data.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Data.Models.dll": {}
@@ -3111,7 +3123,10 @@
       },
       "Receptions.Services/1.0.0": {
         "runtime": {
-          "Receptions.Services.dll": {}
+          "Receptions.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Services.dll": {}
@@ -3125,7 +3140,10 @@
           "Receptions.Web.ViewModels": "1.0.0"
         },
         "runtime": {
-          "Receptions.Services.Data.dll": {}
+          "Receptions.Services.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Services.Data.dll": {}
@@ -3136,7 +3154,10 @@
           "AutoMapper": "12.0.1"
         },
         "runtime": {
-          "Receptions.Services.Mapping.dll": {}
+          "Receptions.Services.Mapping.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Services.Mapping.dll": {}
@@ -3147,7 +3168,10 @@
           "SendGrid": "9.28.1"
         },
         "runtime": {
-          "Receptions.Services.Messaging.dll": {}
+          "Receptions.Services.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Services.Messaging.dll": {}
@@ -3155,7 +3179,10 @@
       },
       "Receptions.Web.Infrastructure/1.0.0": {
         "runtime": {
-          "Receptions.Web.Infrastructure.dll": {}
+          "Receptions.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Web.Infrastructure.dll": {}
@@ -3167,7 +3194,10 @@
           "Receptions.Services.Mapping": "1.0.0"
         },
         "runtime": {
-          "Receptions.Web.ViewModels.dll": {}
+          "Receptions.Web.ViewModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Receptions.Web.ViewModels.dll": {}

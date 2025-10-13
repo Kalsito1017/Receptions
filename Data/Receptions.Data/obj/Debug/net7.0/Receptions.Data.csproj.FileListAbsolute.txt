@@ -14,9 +14,10 @@ C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\R
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.AssemblyInfoInputs.cache
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.AssemblyInfo.cs
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.csproj.CoreCompileInputs.cache
-C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.csproj.CopyComplete
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.dll
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\refint\Receptions.Data.dll
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.genruntimeconfig.cache
 C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\ref\Receptions.Data.dll
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptions.Data.sourcelink.json
+C:\Users\Kaloyan\source\repos\Receptions\Data\Receptions.Data\obj\Debug\net7.0\Receptio.CAF11643.Up2Date

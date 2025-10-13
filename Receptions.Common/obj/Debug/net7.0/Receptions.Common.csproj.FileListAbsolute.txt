@@ -9,3 +9,4 @@ C:\Users\Kaloyan\source\repos\Receptions\Receptions.Common\obj\Debug\net7.0\Rece
 C:\Users\Kaloyan\source\repos\Receptions\Receptions.Common\obj\Debug\net7.0\refint\Receptions.Common.dll
 C:\Users\Kaloyan\source\repos\Receptions\Receptions.Common\obj\Debug\net7.0\Receptions.Common.pdb
 C:\Users\Kaloyan\source\repos\Receptions\Receptions.Common\obj\Debug\net7.0\ref\Receptions.Common.dll
+C:\Users\Kaloyan\source\repos\Receptions\Receptions.Common\obj\Debug\net7.0\Receptions.Common.sourcelink.json
