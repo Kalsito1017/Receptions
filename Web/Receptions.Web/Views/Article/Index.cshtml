@@ -2,6 +2,10 @@
 @{
     ViewData["Title"] = Model.Title;
 }
+@{
+    var pageUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}";
+}
+
 
 <div class="container mt-5 mb-5" style="max-width: 800px;">
     <h1 class="fw-bold">@Model.Title</h1>
@@ -19,8 +23,17 @@
     <hr />
     <div class="mt-4">
         <p class="text-muted">Сподели статията:</p>
-        <a href="https://www.facebook.com/" class="btn btn-outline-primary btn-sm">Facebook</a>
-        <a href="https://x.com/home" class="btn btn-outline-info btn-sm">Twitter</a>
-        
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=@pageUrl"
+           target="_blank"
+           class="btn btn-outline-primary btn-sm">
+            Facebook
+        </a>
+
+        <a href="https://twitter.com/intent/tweet?url=@pageUrl&text=@Model.Title"
+           target="_blank"
+           class="btn btn-outline-info btn-sm">
+            Twitter
+        </a>
     </div>
 </div>

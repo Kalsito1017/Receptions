@@ -1,18 +1,49 @@
-﻿@model Receptions.Web.Controllers.BlogPostViewModel
+﻿@model BlogPostViewModel
+
 @{
     ViewData["Title"] = Model.Title;
+    var pageUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}";
 }
 
 <div class="container my-5" style="max-width: 800px;">
+    <!-- Title -->
     <h1 class="fw-bold mb-3">@Model.Title</h1>
-    <p class="text-muted">@Model.Date.ToString("dd MMM yyyy") · @Model.Author</p>
 
-    <img src="@Model.ImageUrl" alt="@Model.Title" class="img-fluid rounded shadow-sm mb-4" />
+    <!-- Author and Date -->
+    <p class="text-muted mb-4">
+        Публикувано от <strong>@Model.Author</strong> на @Model.Date.ToString("dd MMMM yyyy")
+    </p>
 
+    <!-- Image -->
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="@Model.ImageUrl" alt="@Model.Title" class="img-fluid rounded shadow-sm mb-4" />
+    }
+
+    <!-- Content -->
     <article class="fs-5" style="line-height: 1.7;">
         @Html.Raw(Model.Content)
     </article>
 
     <hr />
+
+    <!-- Share Buttons -->
+    <div class="mt-4">
+        <p class="text-muted">Сподели статията:</p>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=@pageUrl"
+           target="_blank"
+           class="btn btn-outline-primary btn-sm">
+            Facebook
+        </a>
+        <a href="https://twitter.com/intent/tweet?url=@pageUrl&text=@Model.Title"
+           target="_blank"
+           class="btn btn-outline-info btn-sm">
+            Twitter
+        </a>
+    </div>
+
+    <hr />
+
+    <!-- Back Button -->
     <a href="/Blog" class="btn btn-outline-secondary btn-sm">⬅ Върни се към блога</a>
 </div>
