@@ -15,6 +15,7 @@
 
 /* Make all primary buttons consistent */
 .btn-primary {
+    margin: 0 5px;
     background-color: #1b6ec2; /* choose your color */
     border-color: #1b6ec2; /* same as background */
     color: #fff; /* text color */
@@ -29,6 +30,26 @@
         color: #fff;
     }
 
+/* Style Login/Register buttons in navbar */
+.navbar .btn-primary {
+    background-color: #1b6ec2;
+    border-color: #1b6ec2;
+    color: #fff;
+    margin: 0 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    .navbar .btn-primary:hover,
+    .navbar .btn-primary:focus {
+        background-color: #155a9c;
+        border-color: #155a9c;
+        color: #fff;
+    }
+
+/* Ensure proper spacing for navbar buttons */
+.navbar-nav .btn {
+    margin: 0 3px;
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -77,13 +98,13 @@ main {
 
 /* Footer */
 .footer {
-    background-color: #1b6ec2; 
+    background-color: #1b6ec2;
     color: #fff !important; /* force white text */
     text-align: center;
     padding: 1rem 0;
     flex-shrink: 0; /* prevent shrinking */
+    margin-top: auto;
 }
-
 
 /* Borders and shadows */
 .border-top {
@@ -102,4 +123,13 @@ main {
 button.accept-policy {
     font-size: 1rem;
     line-height: inherit;
+}
+
+/* Mobile responsiveness for navbar buttons */
+@media (max-width: 767.98px) {
+    .navbar-nav .btn {
+        margin: 2px 0;
+        display: inline-block;
+        width: auto;
+    }
 }
