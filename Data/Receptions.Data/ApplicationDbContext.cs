@@ -35,6 +35,8 @@
 
         public DbSet<RecipeIngredient> RecipeIngredients { get; set; }
 
+        public DbSet<BlogPost> BlogsPosts { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
