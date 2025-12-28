@@ -1,11 +1,11 @@
-📌 Receptions – ASP.NET Core Web Application
+ Receptions – ASP.NET Core Web Application
 
 This is my first project built with ASP.NET Core, created for learning and educational purposes.
 The project is based on the ASP.NET Core Template by Nikolay Kostov, which provides a solid foundation and best practices for structuring web applications.
 
-🔗 Template used: https://github.com/NikolayIT/ASP.NET-Core-Template
+ Template used: https://github.com/NikolayIT/ASP.NET-Core-Template
 
-🚀 Project Overview
+ Project Overview
 
 The goal of this project is to gain hands-on experience with:
 
@@ -25,7 +25,7 @@ Git and GitHub workflow
 
 This project is intended for educational purposes only and serves as a learning exercise while exploring modern .NET development practices.
 
-🛠️ Technologies Used
+ Technologies Used
 
 C#
 
@@ -39,7 +39,7 @@ SQL (relational databases)
 
 Git & GitHub
 
-▶️ How to Run the Project
+ How to Run the Project
 
 To run this project locally, make sure you have the following installed:
 
@@ -47,16 +47,13 @@ Requirements
 
 .NET 9 SDK
 
-You can download it from the official Microsoft website:
-https://dotnet.microsoft.com/
-
 Steps
 git clone https://github.com/Kalsito1017/Receptions.git
 cd Receptions
 dotnet restore
 dotnet run
 
-📘 Notes
+ Notes
 
 This project is created strictly for learning and practice.
 
