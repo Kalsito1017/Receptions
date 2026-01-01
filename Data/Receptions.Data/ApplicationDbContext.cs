@@ -8,6 +8,7 @@
 
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Diagnostics;
     using Receptions.Data.Common.Models;
     using Receptions.Data.Models;
 
@@ -29,6 +30,8 @@
 
         public DbSet<Category> Category { get; set; }
 
+        public DbSet<RecipeRating> RecipeRatings { get; set; }
+
         public DbSet<Image> Images { get; set; }
 
         public DbSet<Ingredient> Ingredients { get; set; }
@@ -36,6 +39,10 @@
         public DbSet<RecipeIngredient> RecipeIngredients { get; set; }
 
         public DbSet<BlogPost> BlogsPosts { get; set; }
+
+        public DbSet<Article> Articles { get; set; }
+
+        public DbSet<Comment> Comments { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 
@@ -54,6 +61,13 @@
         {
             this.ApplyAuditInfoRules();
             return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // This suppresses the "pending model changes" warning
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

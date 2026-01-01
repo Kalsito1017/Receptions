@@ -1,8 +1,8 @@
 ﻿namespace Receptions.Data.Configurations
 {
-    using Receptions.Data.Models;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using Receptions.Data.Models;
 
     public class ApplicationUserConfiguration : IEntityTypeConfiguration<ApplicationUser>
     {
