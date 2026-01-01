@@ -3,10 +3,10 @@ namespace Receptions.Data.Models
 {
     using System;
     using System.Collections.Generic;
-
-    using Receptions.Data.Common.Models;
+    using System.ComponentModel.DataAnnotations;
 
     using Microsoft.AspNetCore.Identity;
+    using Receptions.Data.Common.Models;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -20,6 +20,10 @@ namespace Receptions.Data.Models
 
         // Audit info
         public DateTime CreatedOn { get; set; }
+
+        [Required]
+        [StringLength(30, MinimumLength = 3)]
+        public string Nickname { get; set; }
 
         public DateTime? ModifiedOn { get; set; }
 

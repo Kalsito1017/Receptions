@@ -4,13 +4,14 @@
 
     using Receptions.Data.Common.Models;
 
-    public class Image : BaseModel<string>
+    public class Image : BaseDeletableModel<string>
     {
-        // Image Test Message
         public Image()
         {
-               this.Id = Guid.NewGuid().ToString();
+            this.Id = Guid.NewGuid().ToString();
         }
+
+        public string Name { get; set; }
 
         public int RecipeId { get; set; }
 
@@ -20,6 +21,13 @@
 
         public ApplicationUser AddedByUser { get; set; }
 
+        // File extension (.jpg, .png)
         public string Extension { get; set; }
+
+        // 📌 The actual image data stored in the DB
+        public byte[] Data { get; set; }
+
+        // 📌 Example: "image/png", "image/jpeg"
+        public string ContentType { get; set; }
     }
 }

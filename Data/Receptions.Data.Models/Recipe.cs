@@ -20,7 +20,7 @@
 
         public TimeSpan PreparationTime { get; set; }
 
-        public TimeSpan TimeSpan { get; set; }
+        public TimeSpan TimeSpan { get; set; } // Cooking time
 
         public int PortionsCount { get; set; }
 
@@ -35,5 +35,9 @@
         public virtual Category Category { get; set; }
 
         public virtual ICollection<Image> Images { get; set; }
+
+        public virtual ICollection<RecipeRating> Ratings { get; set; } = new HashSet<RecipeRating>();
+
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
