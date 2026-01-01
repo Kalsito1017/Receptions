@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
     using System.Linq;
     using System.Text;
@@ -11,10 +12,12 @@
     {
         [Required]
         [MinLength(2)]
+        [DisplayName("Име на съставка")]
         public string IngredientName { get; set; }
 
         [Required]
         [MinLength(3)]
+        [DisplayName("Количество")]
         public string Quantity { get; set; }
     }
 }
