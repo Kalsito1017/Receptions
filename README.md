@@ -1,16 +1,63 @@
 Receptions – ASP.NET Core Web Application
 
-This is my first project built with ASP.NET Core, created for learning and educational purposes. The project is based on the ASP.NET Core Template by Nikolay Kostov, which provides a well-structured foundation and follows established best practices for building scalable and maintainable web applications.
-Template used: https://github.com/NikolayIT/ASP.NET-Core-Template
+Overview
 
-The main goal of this project is to gain practical experience with core concepts and tools used in modern .NET development, including application structure in ASP.NET Core, C# and object-oriented programming principles, MVC architecture and layered design, RESTful APIs and CRUD operations, working with relational databases and SQL, dependency injection, and using Git and GitHub for version control and collaboration.
+Receptions is a learning-focused ASP.NET Core web application, designed to provide hands-on experience with real-world .NET development practices. The project is based on Nikolay Kostov’s ASP.NET Core Template
+, giving it a scalable and maintainable foundation.
 
-The project uses the following technologies: C#, .NET 9, ASP.NET Core, HTML, CSS, JavaScript, SQL (relational databases), and Git/GitHub.
+This project demonstrates core web development concepts including MVC architecture, layered design, RESTful APIs, CRUD operations, and database integration, while following best practices for code structure and project organization.
 
-To run the project locally, make sure the .NET 9 SDK is installed. Then clone the repository, navigate to the project directory, restore dependencies, and start the application using the following commands:
+Features
+
+Fully structured ASP.NET Core application using MVC and layered architecture
+
+CRUD operations with SQL relational database
+
+Dependency injection for modular and testable code
+
+Use of Git/GitHub for version control and collaboration
+
+Frontend built with HTML, CSS, JavaScript
+
+Template-based architecture allows for easy scalability and maintainability
+
+Technologies
+
+Backend: C#, .NET 9, ASP.NET Core
+
+Frontend: HTML, CSS, JavaScript
+
+Database: SQL (relational databases)
+
+Tools: Git, GitHub, Visual Studio / VS Code
+
+Getting Started
+Prerequisites
+
+.NET 9 SDK installed
+
+Git installed
+
+Installation
+
+Clone the repository:
+
 git clone https://github.com/Kalsito1017/Receptions.git
+
+
+Navigate to the project directory:
+
 cd Receptions
+
+
+Restore dependencies:
+
 dotnet restore
+
+
+Run the application:
+
 dotnet run
 
-This project is intended strictly for learning and practice. It follows a template-based architecture to better understand real-world ASP.NET Core application design. Future improvements may include additional features, better validation, and UI enhancements.
+
+The application will start locally, and you can access it via https://localhost:5001 or the specified URL in the console.
